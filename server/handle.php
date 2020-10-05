@@ -1,14 +1,12 @@
 <?php
-$login = $_POST['login'];
-if (!isset($_POST['login']))
-	die($login);
+
 
 
 include ('db.php');
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
-$login = $_POST['login'];
-$password = $_POST['password'];
+$login = $_GET['login'];
+$password = $_GET['password'];
 
 
 

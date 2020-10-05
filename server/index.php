@@ -58,8 +58,8 @@ echo date('d.m.Y');
 
 </ul>
 
-<form method="POST" action="/handle.php">
-   <input type="login" autocomplete="off" placeholder="Your login" name="login">
+<form method="GET" action="/handle.php">
+   <input type="text" autocomplete="off" placeholder="Your login" name="login">
    <input type="password" autocomplete="off" placeholder="Your password" name="password">
    <hr>
    <input type="submit" name="Log in">
